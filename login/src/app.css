@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body, html{
+    width: 100%;
+    min-height: 100vh;
+}
+.block{
+    max-width: 800px;
+    border: solid black 1px;
+    height: 600px;
+    margin: 5em auto;
+}

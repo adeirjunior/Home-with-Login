@@ -1,0 +1,32 @@
+header{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 0;
+    border-bottom: 1px solid black;
+}
+h3{
+    font-size: 20px;
+    margin-left: 40px;
+}
+ul{
+    display: flex;
+
+}
+li,h3{
+    cursor: pointer;
+}
+li{
+    list-style: none;
+    margin-right: 40px;
+    padding: 10px;
+
+}
+li:hover{
+    text-decoration: underline;
+}
+li:last-child{
+    font-weight: bold;
+}
